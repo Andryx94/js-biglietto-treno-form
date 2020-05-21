@@ -1,0 +1,62 @@
+/* Generali */
+body {
+font-family: 'Roboto', sans-serif;
+max-width: 800px;
+margin: auto;
+background-color: darkred;
+}
+
+h1, h2 {
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h3 {
+  text-align: center;
+}
+
+p, button {
+  font-size: 20px;
+}
+
+span {
+  font-weight: 800;
+}
+
+button {
+  padding: 5px 10px;
+}
+/* fine generali */
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+}
+
+.flex.center {
+  justify-content: center;
+}
+
+.center {
+  text-align: center;
+}
+
+/* .hide {
+  display: none;
+} */
+
+.biglietto-acquisto, .biglietto-report {
+  background-color: white;
+  padding: 10px 0;
+  border-radius: 10px;
+}
+
+input, select {
+  display: block;
+}
+
+button {
+  margin-top: 50px;
+  margin-left: 20px;
+}
