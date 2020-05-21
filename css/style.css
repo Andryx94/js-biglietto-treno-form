@@ -42,9 +42,13 @@ button {
   text-align: center;
 }
 
-/* .hide {
+.hide {
   display: none;
-} */
+}
+
+.nohide {
+  display: block;
+}
 
 .biglietto-acquisto, .biglietto-report {
   background-color: white;
