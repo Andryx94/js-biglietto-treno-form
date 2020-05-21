@@ -40,7 +40,7 @@ function() {
     prezzo = Math.abs(chilometri.value) * 0.21;
   }
 
-  reportCosto.innerHTML = prezzo + "€";
+  reportCosto.innerHTML = prezzo.toFixed(2) + "€";
   report.className = report.classList + " nohide";
 }
 );
