@@ -42,7 +42,6 @@ function() {
 
   reportCosto.innerHTML = prezzo + "€";
   report.className = report.classList + " nohide";
-  console.log(prezzo);
 }
 );
 
