@@ -11,16 +11,17 @@
   <body>
     <h1>Calcola il prezzo del tuo biglietto</h1>
 
+    <!-- Sezione acquisto biglietto -->
     <section class="biglietto-acquisto">
       <div class="flex">
         <div class="center">
           <label>Nome Cognome</label>
-          <input id="nome-cognome" type="text">
+          <input id="nome-cognome" type="text" placeholder="Inserisci Nome e Cognome">
         </div>
 
         <div class="center">
           <label>Km da percorrere</label>
-          <input id="chilometri" type="number">
+          <input id="chilometri" type="number" placeholder="Inserisci i kilometri">
         </div>
 
         <div class="center">
@@ -43,9 +44,11 @@
         </div>
       </div>
     </section>
+    <!-- fine sezione acquisto biglietto -->
 
     <h2>Il tuo biglietto</h2>
 
+    <!-- Sezione report biglietto -->
     <section id="report" class="biglietto-report hide">
       <h3>Dettaglio passeggeri</h3>
 
@@ -76,17 +79,11 @@
         </div>
       </div>
     </section>
+    <!-- fine sezione report biglietto -->
 
+    <!-- Script js -->
     <script src="js/script.js">
     </script>
+    <!-- fine script js -->
   </body>
 </html>
-
-<!--
-<p>La distanza da percorrere è di <span id="chilometri"></span> km</p>
-<p>Hai <span id="anni"></span> anni</p>
-
-<p>Il tuo viaggio costerà <span id="prezzo"></span>€</p>
-
-<button onClick="window.location.reload();">Ricarica la pagina</button>
- -->

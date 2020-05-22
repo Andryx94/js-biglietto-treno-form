@@ -27,6 +27,14 @@ button {
   margin-top: 50px;
   margin-left: 20px;
   font-size: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+button:hover {
+  cursor: pointer;
+  color: white;
+  background-color: #b91450;
 }
 
 label, button {
@@ -42,6 +50,11 @@ input, select {
   text-align: center;
 }
 
+input:focus, select:focus {
+  background-color: #b91450;
+  color: white;
+}
+
 /* id */
 #report-nome-cognome {
   font-weight: 600;
@@ -49,7 +62,6 @@ input, select {
 
 #passeggero {
   background-color: #808080;
-  padding: 0 10px;
 }
 
 /* classi */
@@ -79,4 +91,15 @@ input, select {
   padding: 10px 0;
   border-radius: 10px;
   box-shadow: 1px 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+.biglietto-report .flex {
+  margin: 0 20px;
+  border-top: 1px solid rgba(0,0,0,0.2);
+  border-bottom: 1px solid rgba(0,0,0,0.2);
+  justify-content: space-between;
+}
+
+.biglietto-report .flex > div {
+  padding: 0 10px;
 }
