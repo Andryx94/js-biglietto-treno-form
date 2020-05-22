@@ -41,7 +41,14 @@ function() {
   }
 
   reportCosto.innerHTML = prezzo.toFixed(2) + "€";
-  report.className = report.classList + " nohide";
+
+  if (nomeCognome.value && chilometri.value && eta.value) {
+    report.className = report.classList + " nohide";
+  }
+
+  else {
+    alert("Inserisci tutti i dati!")
+  }
 }
 );
 
